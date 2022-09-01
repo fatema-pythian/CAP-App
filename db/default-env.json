@@ -1,0 +1,37 @@
+{
+	"VCAP_SERVICES": {
+		"hana": [
+			{
+				"name": "MyCAPApp-hdiMyCAPApp",
+				"instance_name": "MyCAPApp-hdiMyCAPApp",
+				"label": "hana",
+				"tags": [
+					"hana",
+					"database",
+					"relational",
+					"mta-resource-name:MyCAPApp-db",
+					"endpoint:https://api.cf.us10.hana.ondemand.com",
+					"org:5703ce17trial",
+					"space:dev"
+				],
+				"plan": "hdi-shared",
+				"credentials": {
+					"certificate": "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----",
+					"driver": "com.sap.db.jdbc.Driver",
+					"hdi_password": "Hi3RXlDLpk7lw4CK_rsj.sBpNpNpTGSV6FuJfCXgAHVJL_pdeH2YZYuHclsSXldJUNhAWOZ8dhcjCoyuJR-0D8.cQgolaJaQKbXjbm-5n3RRu4vBMOU12SLnft4MrNhL",
+					"hdi_user": "MYCAPAPP_HDI_MYCAPAPP_DB_DEPLOYER_1_B70CS1Y343N14EOJNVPJ6ERNF_DT",
+					"host": "b5e39452-ebae-4fab-b152-d2e78fdc2210.hana.trial-us10.hanacloud.ondemand.com",
+					"password": "Vv2GsOluh8IhlP9IHmHxD_uNkXkZSfGR6dwk5-RVI_L9UIYFDKlejA9VwuaYcaFmXfba8igkN29Px1NQ44Cap0qCtA.QU05ZmTQy7tIo.dvsQ4cWrqEup_RoigC8R-Lq",
+					"port": "443",
+					"schema": "MYCAPAPP_HDI_MYCAPAPP_DB_DEPLOYER_1",
+					"service_key_name": "SharedDevKey",
+					"url": "jdbc:sap://b5e39452-ebae-4fab-b152-d2e78fdc2210.hana.trial-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=MYCAPAPP_HDI_MYCAPAPP_DB_DEPLOYER_1",
+					"user": "MYCAPAPP_HDI_MYCAPAPP_DB_DEPLOYER_1_B70CS1Y343N14EOJNVPJ6ERNF_RT",
+					"encrypt": true,
+					"sslValidateCertificate": false,
+					"pooling": true
+				}
+			}
+		]
+	}
+}
